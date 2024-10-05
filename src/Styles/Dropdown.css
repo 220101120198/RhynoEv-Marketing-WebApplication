@@ -1,0 +1,37 @@
+.product-submenu{
+   width: 10rem;
+   position: absolute;
+   top: 190px;
+   left: 430px;
+   list-style: none;
+   text-align: start;
+   box-shadow: 0 8px 16px rgba(216, 209, 209, 0.2);
+   border-radius: 5px;
+}
+.product-submenu li{
+   background-color: #2C2A2A; /* Dark Grey */
+   min-width: 130px;
+   box-shadow: 0 8px 16px rgba(216, 209, 209, 0.2);
+   z-index: 1;
+   left: 0;
+   top: 90%;
+   border-radius: 5px;
+   cursor: pointer;
+ }.product-submenu li a:hover{
+   background-color: #FFFF; 
+   border-radius: 5px;
+   color: #2C2A2A;
+ }
+ .product-submenu.clicked{
+   display:block;
+   text-decoration: none;
+   color: #FFFF;
+   
+ }
+ .submenu-item{
+   display: block;
+   padding: 12px 16px;
+   color: #FFFFFF; /* White */
+   text-decoration: none;
+   transition: background-color 0.9s ease;
+}

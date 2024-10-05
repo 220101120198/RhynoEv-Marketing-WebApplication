@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,700;1,900&display=swap');
+/* base style*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}.product{
+  background:linear-gradient( rgba(236, 240, 187, 0),rgba(201, 201, 184, 0.5), rgba(236, 240, 187, 0));
+}.corousel{
+  background-color:linear-gradient(  rgba(236, 240, 187, 0),rgba(26, 26, 24, 0.5), rgba(236, 240, 187, 0));
+}
+
+/* pre define css */
+h1,h2,h3,h4,h5,h6{
+  color: #030303;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+
+
+h3,h4{
+  font-size: 1.8rem;
+}
+
+h5,h6{
+  font-size: 1.2rem;
+}
+
+a{
+  text-decoration:none;
+  color: unset;
+  
+}
+
+a:hover{
+  color: #FFFFFF;
+
+}
+ul{
+  margin: 0;
+  list-style: none;
+}
+
+.section_title{
+  color: #FFF225;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.section_subtitle{
+  color: #FFF225;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+
+.section_description{
+  color:  rgb(95, 91, 91);
+  font-size: 15px ;
+  line-height: 30px;
+  
+}
+section{
+  padding: 50px 0px;
+}
+.btn{
+  padding: 7px 15px;
+  background: #FFF225;
+  color: #202020;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  color: #202020;
+  background: #FFFFFF;
+}
+
+@media only screen and (max-width:968px){
+  section{
+    padding: 30px 0px;
+  }
+  .section_title{
+    font-size: 1.6rem;
+  }
+  .section_subtitle{
+    font-size: 1.1rem;
+  }
+}

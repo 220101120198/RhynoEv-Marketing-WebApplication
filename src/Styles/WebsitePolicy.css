@@ -1,0 +1,42 @@
+.website-policy {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .website-policy h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .website-policy h2 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .website-policy p {
+    font-size: 1.0rem;
+    margin-bottom: 15px;
+  }
+  
+  .website-policy ul {
+    margin-bottom: 20px;
+  }
+  
+  .website-policy li {
+    font-size: 1.0rem;
+    line-height: 1.5;
+  }
+  
+  .website-policy a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .website-policy a:hover {
+    text-decoration: underline;
+  }
+  

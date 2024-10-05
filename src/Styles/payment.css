@@ -1,0 +1,63 @@
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}.Form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #d8d8d8 40.1%,#f8ef6e 60%);
+}
+.row .col{
+  flex:1 1 250px;
+}
+.row .col .title{
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+.row .col .inputBox{
+  margin:15px 0;
+}
+.row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+.row .col .inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+.row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+.row .col .flex{
+  display: flex;
+  gap:15px;
+}
+.row .col .flex .inputBox{
+  margin-top: 5px;
+}
+.row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+.submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: #202020;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.submit-btn:hover{
+  background: #fff225;
+  color: #202020;
+}
